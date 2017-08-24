@@ -1,0 +1,105 @@
+.divContainer{
+    
+}
+.queryDiv{
+    height:250px;
+    width:300px;
+    display: inline-block;
+    border:1px red solid;
+    padding:3px;
+}
+.showDiv,.fadeDiv,.fadeToggleDiv,.slideToggleDiv{
+    height: 200px;
+    width:200px;
+    margin:auto;
+    border:2px gray solid;
+    background-color:lightcyan;
+    
+}
+.slideDiv{
+    height: 200px;
+    width:200px;
+    border:2px gray solid;
+    background-color:lightcyan;
+}
+
+.slideSpace{
+    height: 200px;
+    width:200px;
+    margin:auto;
+}
+.btnContainer{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+button{
+    margin:5px;
+}
+
+/* Traversing */
+
+.grangranpaDiv{
+    width:500px;
+    height:500px;
+    background-color:lightblue;
+    position:relative;
+}
+.granpaDiv{
+    width:470px;
+    height:470px;
+    background-color: lightcoral;
+    position: absolute;
+    bottom : 0px;
+}
+.faDiv{
+    width:440px;
+    height:440px;
+    background-color: lightgray;
+    position: absolute;
+    bottom : 0px;
+}
+.onyouDiv{
+    width:70px;
+    height:70px;
+    background-color: lightgreen;
+}
+.isYouDiv{
+    width:200px;
+    height:200px;
+    background-color: lightsalmon;
+    position:relative;
+}
+.underyouDiv{
+    width:70px;
+    height:70px;
+    background-color: lightpink;
+}
+.otherDiv{
+    width:70px;
+    height:70px;
+    background-color: plum;
+}
+.yourSonDiv{
+    width:100px;
+    height:100px;
+    background-color: palegreen;
+    position:relative;
+}
+.yourDaughterDiv{
+    width:80px;
+    height:80px;
+    background-color: paleturquoise;
+    position: absolute;
+    bottom : 0px;
+}
+.grandsonDiv{
+    width:80px;
+    height:80px;
+    background-color: palevioletred;
+    position: absolute;
+    bottom : 0px;
+}
+
+/* Traversing */
