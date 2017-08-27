@@ -5,7 +5,6 @@
     height:250px;
     width:300px;
     display: inline-block;
-    border:1px blue solid;
     padding:3px;
 }
 .showDiv,.fadeDiv,.fadeToggleDiv,.slideToggleDiv{
@@ -37,69 +36,95 @@
 button{
     margin:5px;
 }
-
 /* Traversing */
-
+.grangranpaDiv,.grangranpaDiv div{
+    border:black 2px solid;
+    font-size: 20px
+}
 .grangranpaDiv{
-    width:500px;
-    height:500px;
-    background-color:lightblue;
+    width:700px;
+    height:700px;
+    
+    padding:3px;
     position:relative;
+    display: inline-block;
+    float:left;
 }
 .granpaDiv{
-    width:470px;
-    height:470px;
-    background-color: lightcoral;
+    width:650px;
+    height:650px;
+    padding:3px;
     position: absolute;
     bottom : 0px;
 }
 .faDiv{
-    width:440px;
-    height:440px;
-    background-color: lightgray;
+    width:600px;
+    height:600px;
+    padding:3px;
     position: absolute;
     bottom : 0px;
 }
 .onyouDiv{
-    width:70px;
-    height:70px;
-    background-color: lightgreen;
+    width:100px;
+    height:100px;
+    margin-bottom:3px;
 }
 .isYouDiv{
-    width:200px;
-    height:200px;
-    background-color: lightsalmon;
+    width:230px;
+    height:230px;
+    padding:3px;
+    margin-bottom: 3px;
     position:relative;
 }
 .underyouDiv{
-    width:70px;
-    height:70px;
-    background-color: lightpink;
+    width:100px;
+    height:100px;
+    margin-bottom:3px;
 }
 .otherDiv{
-    width:70px;
-    height:70px;
-    background-color: plum;
+    width:100px;
+    height:100px;
 }
 .yourSonDiv{
     width:100px;
     height:100px;
-    background-color: palegreen;
+    padding:3px;
+    margin-bottom:3px;
     position:relative;
 }
 .yourDaughterDiv{
     width:80px;
     height:80px;
-    background-color: paleturquoise;
-    position: absolute;
-    bottom : 0px;
+    
 }
 .grandsonDiv{
     width:80px;
     height:80px;
-    background-color: palevioletred;
     position: absolute;
     bottom : 0px;
 }
 
 /* Traversing */
+.selectDiv{
+    margin-left:5px; 
+    display: inline-block;
+}
+.sctContainer{
+}
+.sctTitle{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.sctDiv{
+    width:100px;
+    height:100px;
+    background-color:lightgray;
+    margin-right: 5px;
+    display:inline-block;
+    
+}
+
+.sctInfo{
+    border:2px red solid;
+    display: inline-block;
+}

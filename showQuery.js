@@ -43,3 +43,25 @@ $(".stopBtn").click(()=>{
     $(".fadeDiv").stop();
     
 })
+
+// selectot 
+$(document).ready(function(){
+    
+    $(".parentDiv").mouseover(()=>{
+        $(".isYouDiv").parent().css("border-color","lightcoral")
+    })
+    $(".parentDiv").mouseout(()=>{
+        $(".isYouDiv").parent().css("border-color","black")
+    })
+    
+    $(".parentsDiv").mouseover(()=>{
+        $(".isYouDiv").parents().css("border-color","lightcoral")
+    })
+    $(".parentsDiv").mouseout(()=>{
+        $(".isYouDiv").parents().css("border-color","black")
+    })  
+})
+
+
+
+// selectot 
